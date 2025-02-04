@@ -20,14 +20,14 @@ let speed = distance / time;
 alert(`вам потрібно рухатися зі швидкістю ${speed.toFixed(2)} км/год `);
 
 //---------------------------- 6 -----------------------------------
-const exchange_rate = 0.96; // Курс долара до євро (умовний)
+const exchange_rate = 0.96; 
 let dollars = prompt("Введіть суму в доларах:");
 let euros = dollars * exchange_rate;
 alert(`${dollars} доларів = ${euros.toFixed(2)} євро.`);
 
 //---------------------------- 7 -----------------------------------
 let flashSize = prompt("Введіть обсяг флешки у ГБ:");
-let fileSize = 820; // Розмір файлу в МБ
+let fileSize = 820; 
 let flashSizeMB = flashSize * 1024;
 let filesCount = Math.floor(flashSizeMB / fileSize);
 alert(`На флешку поміститься ${filesCount} файлів розміром 820 МБ.`);
